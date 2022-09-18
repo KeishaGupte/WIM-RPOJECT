@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,39 @@
     <title>Document</title>
     <link rel="stylesheet" href="complaint.css">
 </head>
+
 <body>
-    <div class="input">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Enter your name" required /><br />
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">Updates</a>
+
     </div>
 
-    <div class="input">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Enter your email" /><br />
-    </div>
-    <div class="input">
-        <label for="comp">What has happened?</label>
-        <input type="text" name="comp" id="comp" placeholder="Enter your complaint"> <br>
-    </div>
-    <div class="input">
-        <label for="sol">How can we make it right?</label>
-        <input type="text" name="sol" id="sol" placeholder=""> <br>
+    <h1>FOR HIRE FORM</h1>
+    <div class="container">
+        <form action="">
+            <div class="input">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required /><br />
+            </div>
+
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" /><br />
+            </div>
+            <div class="input">
+                <label for="comp">What has happened?</label>
+                <input type="text" name="comp" id="comp" placeholder="Enter your complaint"> <br>
+            </div>
+            <div class="input">
+                <label for="sol">How can we make it right?</label>
+                <input type="text" name="sol" id="sol" placeholder=""> <br>
+            </div>
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
     </div>
 </body>
+
 </html>
