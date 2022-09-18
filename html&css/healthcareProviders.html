@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="healthcareProviders.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="/" method="post">
+        <div class="input">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          /><br />
+        </div>
+
+        <div class="input">
+          <label for="number">Number (+91)</label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Enter your phone number"
+            required
+          /><br />
+        </div>
+
+        <div class="input">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          /><br />
+        </div>
+
+        <div class="input">
+          <label for="specialist">Specialist</label>
+          <select name="specialist" id="specialist">
+            <option value="Physiotherapist">Physiotherapist</option>
+            <option value="Physcologist">Physcologist</option>
+            <option value="Nurse">Nurse</option>
+            <option value="Babysitter">Baby-Sitter</option>
+          </select>
+          <br />
+        </div>
+
+        <div class="input">
+          <label class="text" for="location">Location</label>
+          <input
+            type="text"
+            name="location"
+            id="location"
+            placeholder="Enter your preferred location"
+          />
+          <br />
+        </div>
+
+        <div class="input">
+          <label for="fees">Fees</label>
+          <input
+            type="number"
+            name="fees"
+            id="fees"
+            placeholder="Enter your expected fees amount"
+          />
+          <br />
+        </div>
+
+        <div class="submit">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
