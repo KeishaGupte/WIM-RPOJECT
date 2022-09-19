@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="campaign.css">
+    <link rel="stylesheet" href="fundraiser.css">
 </head>
+
 <body style="background-image: linear-gradient(to bottom left, lightblue,white,white,white, lightblue); min-height: 100vh;">
     <div class="nav">
         <input type="checkbox" id="nav-check">
@@ -33,7 +35,8 @@
             <a href="profile.html" >PROFILE</a>
         </div>
     </div>
-    <h1>CAMPAIGN FORM</h1>
+
+    <h1>FUNDRAISERS FORM</h1>
     <div class="container">
         <form action="">
             <div class="input">
@@ -41,22 +44,23 @@
                 <input type="text" name="title" id="title" placeholder="Enter the title of the campaign">
             </div>
             <div class="input">
-                <label for="story">Description</label>
+                <label for="story">Story</label>
                 <input type="text" name="story" id="story" placeholder="Enter the story behind this campaign">
             </div>
 
             <div class="input">
-                <label for="amount">Address</label>
-                <input type="text" name="amount" id="amount" placeholder="Address">
+                <label for="amount">Amount</label>
+                <input type="number" name="amount" id="amount" placeholder="Amount to be raised">
             </div>
 
             <div class="input">
-                <label for="days">Start-Date</label>
-                <input type="date" name="days" id="days">
+                <label for="days">Days</label>
+                <input type="number" name="days" id="days" placeholder="Enter the time period of the campaign">
             </div>
+
             <div class="input">
-                <label for="days1">End-Date</label>
-                <input type="date" name="days1" id="days1">
+                <label for="upi">UPI ID</label>
+                <input type="text" name="upi" id="upi" placeholder="Enter your UPI ID">
             </div>
             <div class="input">
                 <label for="image">Image</label>
@@ -69,4 +73,5 @@
         </form>
     </div>
 </body>
+
 </html>
